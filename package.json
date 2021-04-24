@@ -1,25 +1,26 @@
 {
   "name": "portfolio",
   "version": "0.4.0",
-  "description": "Aman Sharma's slice of internet",
+  "description": "Gaurav Sharma's slice of internet",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --hot",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
     "code-format": "eslint */**/*.{ts,tsx} --fix",
-    "style-format": "stylelint **/*.{sass,scss} --fix --custom-syntax sugarss"
+    "style-format": "stylelint **/*.{sass,scss} --fix --custom-syntax sugarss",
+    "deploy": "gh-pages -d leovaldez42.github.io"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/algomaster99/portfolio.git"
+    "url": "git+https://github.com/Leovaldez42/portfolio.git"
   },
-  "author": "Aman Sharma",
+  "author": "Gaurav Sharma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/algomaster99/portfolio/issues"
+    "url": "https://github.com/Leovaldez42/portfolio/issues"
   },
-  "homepage": "https://github.com/algomaster99/portfolio#readme",
+  "homepage": "https://github.com/Leovaaldez42/portfolio#readme",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
@@ -44,6 +45,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "file-loader": "^6.0.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.0.3",
     "postcss-cli": "^7.1.0",
     "postcss-loader": "^3.0.0",
