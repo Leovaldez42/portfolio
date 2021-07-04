@@ -1,11 +1,10 @@
-export const SHORT_NAME = 'aman'
-export const FULL_NAME = 'aman sharma'
-export const EMAIL = 'asharma@mt.iitr.ac.in'
+export const SHORT_NAME = 'gaurav'
+export const FULL_NAME = 'gaurav sharma'
+export const EMAIL = 'ghsharma@et.vjti.ac.in'
 export const DESIGNER = 'vineet arora'
 export const DESIGNER_LINK = 'https://dribbble.com/vineetarora'
-export const SHORT_BIO = `A final year undergrad at IIT Roorkee. Student developer at Google Summer of Code 2019 and 2020. Currently working remotely with
-  <a href="https://www.monperrus.net/martin/" target="__blank" rel="noopener noreferrer">Martin Monperrus, Ph.D.</a>
-  on a research project.
+export const SHORT_BIO = `A final year undergrad at VJTI. Currently working remotely with
+  <a href=https://www.jpmorganchase.com/" target="__blank" rel="noopener noreferrer">JP Morgan Chase & Co.</a> as a summer intern.
 `
 
 export enum THEME {
@@ -21,54 +20,39 @@ export enum TYPE {
 export const LINKS = [
   {
     site: 'GitHub',
-    url: 'https://github.com/algomaster99',
+    url: 'https://github.com/Leovaldez42',
   },
   {
-    site: 'Instagram',
-    url: 'https://www.instagram.com/iamposki/',
-  },
-  {
-    site: 'Facebook',
-    url: 'https://www.facebook.com/aman.sharma.1238292/',
+    site: 'Medium',
+    url: 'https://leovaldez42.medium.com/',
   },
   {
     site: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/aman-sharma606/',
+    url: 'https://www.linkedin.com/in/gaurav-sharma42/',
   },
 ]
 
-export const IITR_WEBSITE = 'https://www.iitr.ac.in/'
+export const COC_WEBSITE = 'https://www.communityofcoders.in/'
+export const SPECIALBHARAT = 'https://www.typedtales.com/'
+export const CUPS = 'https://www.7cups.com/@leovaldez19'
+export const TALK_CAMPUS = 'https://www.talkcampus.io/'
 
-export const EXPERIENCE_1 = `At IIT Roorkee, I handle the Content management 
-  system, which helps in managing and publishing web-pages on <a href=${IITR_WEBSITE} target="_blank">IIT Roorkee’s
-  official website</a>. Being a Google Summer of Code student in 2019, I have
-  worked on a data visualization tool under Vega.
+export const EXPERIENCE_1 = `At VJTI, I helped in development of <a href=${COC_WEBSITE} target="_blank">Community of Coders's official website</a>. I have also helped in developing applications for Mumbai Vikas Samiti and <a href=${SPECIALBHARAT}target="_blank">Special Bharat Olympiad
 `
 
-export const EXPERIENCE_2 = `Apart from web applications, I have also worked,
-  with iterative.ai, on a version control system called Data Version Control,
-  which is a command-line utility.
+export const EXPERIENCE_2 = `Apart from web applications, I have also worked, with Firebase, AWS and a few Machine Learning Projects.
 `
 
-export const TECHNICAL_SKILLS_1 = `My GSoC projects, internships, and managing
-  IIT Roorkee’s website have given me a good experience in developing
-  applications on a large scale. Therefore, I understand the importance of
-  ensuring cross-browser compatibility and responsive layouts before deploying
-  on production.
+export const TECHNICAL_SKILLS_1 = `My internship and projects have given me a good experience in developing applications on a large scale. Therefore, I understand the importance of ensuring cross-browser compatibility and responsive layouts before deploying on production.
 `
 
-export const TECHNICAL_SKILLS_2 = `Being a full-stack developer, I am also
-  familiar with technologies such as C++, Javascript, React, Redux, Django,
-  Yii2, HTML/CSS.
+export const TECHNICAL_SKILLS_2 = `Being a full-stack developer, I am also familiar with technologies such as C++, Javascript, React, Redux, Django, Flutter, Android Studio, HTML/CSS.
 `
 
-export const NOT_TECHNICAL_SKILLS_1 = `Being at the forefront of handling IITR
-  website’s user support tickets, I understand the importance of user empathy
-  and interpersonal and communication skills. 
+export const NOT_TECHNICAL_SKILLS_1 = `Being a listener at <a href=${CUPS} target="_blank">7 cups</a> and a volunteer at <a href=${TALK_CAMPUS} target="_blank">Talk Campus</a>, I understand the importance of user empathy and interpersonal and communication skills. 
 `
 
-export const NOT_TECHNICAL_SKILLS_2 = `Apart from work, I spend time speaking
-  at conferences, contribute to open-source, swim, and play badminton.
+export const NOT_TECHNICAL_SKILLS_2 = `Apart from work, I spend time writing stories, reading about Cosmology and Psychology, contributing to open-source, and playing chess.
 `
 
-export const PORTFOLIO_REPOSITORY = 'https://github.com/algomaster99/portfolio'
+export const PORTFOLIO_REPOSITORY = 'https://github.com/leovaldez42/portfolio'
